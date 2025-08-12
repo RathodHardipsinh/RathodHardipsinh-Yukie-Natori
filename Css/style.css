@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html, body {
+  overflow-x: hidden;
+}
 
     /* notification area */
 .notification{
@@ -411,7 +414,7 @@
         font-size: 22px;
     }
     .ourservice-img {
-        margin-left: 35px;
+        margin-left: 0px;
     }
     .our-services1{
         flex-direction: column;
@@ -443,5 +446,9 @@
     }
     .service-head{
         margin-top: 100px;
+    }
+    .submit button{
+        margin-left : 135px;
+        margin-top: 25px;
     }
 }
