@@ -1,0 +1,444 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+    /* notification area */
+.notification{
+    height: 35px;
+    width: 100%;
+    padding: 25px 10px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.5vh;
+}
+.notification span{
+    padding: 6px;
+    margin: 0px 25px;
+}
+
+.notification .offer{
+    padding: 6px;
+    background-color: #6f6f6f;
+    border: none;
+    color: WHITE;
+    width: 120px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.notification .offer:hover{
+    cursor: pointer;
+    background-color: #929090;
+}
+
+         /* NAVBAR */
+.nav{
+     color: white;
+     height: 110px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.nav img{
+    width: 118px;
+    height: 45px;
+    margin-left: 15px;
+}
+.content{
+    width: calc(100% - 120px);
+    display: flex;
+    justify-content: space-evenly;
+}
+.content ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px 16px;
+    font-size: 22px;
+}
+.content ul li:hover{
+    border-bottom: 2px solid gray;
+}
+.content .book{
+    color: red;
+}
+.bars i{
+    display: none;
+}
+.head::before{
+    content: "";
+    position: absolute;
+    background: url('/images/img2.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+}
+
+/* About Us section  */
+.aboutus{
+    height: 475px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutus h2{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.aboutus p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+/* Section 3 Our services */
+.service-head{
+    font-size: 32px;
+    margin: 20px;
+    display: block;
+    text-align: center;
+}
+
+.our-services1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourservice-img{
+    width: 360px;
+    height: 230px;
+}
+.our-services1 .spa{
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+.our-services1 .nail{
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+.our-services1 .hair{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+.detail{
+    margin: 15px ;
+   font-size: 30px;
+   color: #ca8fc7;
+   margin-bottom: 25px;
+}
+.atag{
+    padding: 15px 30px;
+    text-decoration: none;
+    background-color: #333333;
+    color: white;
+}
+.atag:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* section3 our service part 2 */
+.our-services2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-services2 .massage{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+.our-services2 .facial{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+.publishin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    height: 140px;
+}
+.publish-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .Contact buttons */
+.contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.contactus .contact-btn{
+    margin: 10px;
+    padding: 15px 80px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+}
+.contactus .contact-btn:hover{
+    background-color: #8dbfbe;
+    cursor: pointer;
+}
+/* about spa section  */
+    .aboutspa{
+        height: 830px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    .aboutspa h2{
+        padding-top: 30px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .aboutspa .aboutspa-img{
+    margin-top: 25px;
+    display: inline;
+    position: relative;
+    top: 0px;
+    left: 485px;
+    }
+     .aboutspa .txt{
+        font-size: 20px;
+        margin: 25px 33px;
+     }
+     .aboutspa .about-btn{
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+     }
+     .aboutspa .moreabout{
+        padding: 10px 40px;
+        background-color: white;
+        border: none;
+        color: black;
+        border-radius: 4px;
+        font-weight: 750;
+     }
+
+        /* Online form  */
+        .online-form{
+            height: 1100px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            border-bottom: 2px solid #ca8fc7;
+        }
+        .online-form h2{
+            text-align: center;
+            padding: 30px 10px;
+            font-size: 30px;
+        }
+        .appointment-form{
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .liketo select{
+            appearance: none;
+        }
+        .form-div{
+            display: flex;
+            flex-direction: column;
+            width: 964px;
+            margin-bottom: 20px;
+        }
+        .form-label{
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .form-input{
+            border: none;
+            appearance: none;
+            padding: 12px;
+            background-color: #dbdbdb;
+        }
+        .submit button{
+            padding: 12px;
+            color: white;
+            background-color: black;
+            border: 2px solid #c2aa6c;
+            font-size: 1.3rem;
+            margin: 8px 276px;
+            border-radius: 6px;
+        }
+        .submit button:hover{
+            border: none;
+            background-color: #ca8fc7;
+        }
+        .foot{
+            height: 600px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+        .foot-img img{
+            height: 300px;
+            width: 300px;
+        }
+        .foot p{
+            color: #ca8fc7;
+            text-align: center;
+        }
+        .copyright span{
+            color: white;
+            font-weight: 700;
+        }
+        /* footer  */
+/* for minimum 400px  and maximum 1150 px reponsive */
+@media (min-width:800px) and (max-width:1150px ) {
+    .nav{
+      
+        flex-wrap: wrap;
+    }
+    .nav img{
+    width: 100px;
+    margin-left: 43vw;
+    justify-content: center;
+}
+.content ul li{
+    padding: 10px 5px;
+    font-size: 17px;
+}
+}
+/* for minimum 400px  and maximum 800 px reponsive */
+@media (min-width:400px) and (max-width:850px ){
+    .nav{
+        padding-top: 5px;
+        flex-wrap: wrap;
+    }
+    .nav img {
+    margin-left: 40vh;
+}
+.content ul li {
+    padding: 4px 8px;
+    font-size: 13px;
+}
+.aboutus h2 {
+    font-size: 35px;
+}
+.ourservice-img {
+    width: 240px;
+}
+.publish-img img{
+    width: 100%;
+}
+.aboutspa h2 {
+    font-size: 23px;
+}
+.aboutspa {
+    height: 910px;
+}
+.aboutspa .aboutspa-img {
+    left: 140px;
+}
+.form-div {
+    width: 650px;
+}
+.submit button {
+    margin: 8px 87px;
+}
+}
+
+/* for minimum 400px reponsive */
+@media (max-width:400px){
+    .notification{
+        font-size: 19px;
+        justify-content: space-between;
+    }
+    .notification span{
+            margin: 0px 30px;
+    }
+
+.notification .offer{
+        margin-right: 50px;
+}
+.head::before{
+    width: 100%;
+}
+    .content ul li{
+        display: none;
+    }
+    .bars i{
+        margin-right: 10px;
+        font-size: 26px;
+        display: inline;
+    }
+    .nav img {
+    width: 135px;
+    }
+    .aboutus h2 {
+        font-size: 22px;
+    }
+    .ourservice-img {
+        margin-left: 35px;
+    }
+    .our-services1{
+        flex-direction: column;
+    }
+    .our-services2{
+        flex-direction: column;
+    }
+    .publish-img img{
+        width: 100%;
+    }
+    .contactus .contact-btn {
+        padding: 16px 36px;
+    }
+    .aboutspa {
+        height: 1150px;
+    }
+    .aboutspa h2 {
+        font-size: 21px;
+    }
+    .aboutspa .aboutspa-img {
+        left: 0px;
+        width: 100%;
+    }
+    .foot {
+        height: 800px;
+    }
+    .form-div {
+        width: 250px;
+    }
+}
