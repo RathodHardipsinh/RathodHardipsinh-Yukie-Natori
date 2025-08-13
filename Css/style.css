@@ -451,4 +451,7 @@ html, body {
         margin-left : 135px;
         margin-top: 25px;
     }
+    .online-form h2{
+        padding-top: 30px;
+    }
 }
